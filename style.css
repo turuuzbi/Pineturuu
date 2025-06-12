@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 * {
@@ -9,7 +9,7 @@
 }
 
 .bg {
-  background-image: url("/images/first.png");
+  background-image: url("./images/first.png");
   height: 1440px;
   width: 100vw;
   background-position: center;
@@ -168,20 +168,20 @@
 #hoveri:hover ~ .hover1 {
   opacity: 1;
 }
-#hoverii:hover ~ .hover2{
+#hoverii:hover ~ .hover2 {
   opacity: 1;
 }
-#hoveriii:hover ~ .hover3{
+#hoveriii:hover ~ .hover3 {
   opacity: 1;
 }
-#hoveriv:hover ~ .hover4{
+#hoveriv:hover ~ .hover4 {
   opacity: 1;
 }
-#hoverv:hover ~ .hover5{
+#hoverv:hover ~ .hover5 {
   opacity: 1;
 }
 .card:hover {
-  border: 3px solid white ;
+  border: 3px solid white;
 }
 .hover1 {
   position: absolute;
@@ -294,5 +294,5 @@
   display: flex;
   font-size: 20px;
   color: blue;
-  gap: 15px
+  gap: 15px;
 }
