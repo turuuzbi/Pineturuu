@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.bg {
+  background-image: url("first.png");
+  height: 1440px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  font-family: "Bebas Neue", sans-serif;
+}
+.text {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 118px;
+}
+.tour-logo {
+  background-image: url("./logo.png");
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 35px;
+}
+.user-logo {
+  background-image: url("./user.png");
+  background-size: cover;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+}
+.en {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p-text {
+  display: flex;
+  gap: 100px;
+}
+.main-text1 {
+  display: flex;
+  justify-content: center;
+  color: grey;
+  font-size: 150px;
+  font-weight: 400;
+}
+.main-text2 {
+  display: flex;
+  justify-content: center;
+  font-size: 350px;
+  font-weight: 400;
+  color: white;
+}
+.main-text3 {
+  color: white;
+  font-weight: 900;
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+}
+.p-main-text {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.bg2 {
+  background-image: url("second.png");
+  height: 1000px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  font-family: "Bebas Neue", sans-serif;
+}
+.p-pic {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.pic {
+  border: 10px solid aquamarine;
+  border-radius: 50px;
+  display: flex;
+  background-image: url(./location1.png);
+  justify-content: center;
+  align-items: center;
+  width: 525px;
+  height: 748px;
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.bg3 {
+  background-image: url(./third.png);
+  width: 100vw;
+  height: 1200px;
+}
+.third-heading {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+.third-h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 75px;
+}
+.third-h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+}
+.third-both {
+  display: flex;
+  flex-direction: row;
+  margin: 120px 60px;
+}
+.third-left {
+  display: flex;
+}
+.p-card {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 25px;
+  position: relative;
+}
+.card {
+  border-radius: 120px;
+  padding: 25px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.date {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+.third-p-text {
+  font-size: 20px;
+}
+#hoveri:hover ~ .hover1 {
+  opacity: 1;
+}
+#hoverii:hover ~ .hover2{
+  opacity: 1;
+}
+#hoveriii:hover ~ .hover3{
+  opacity: 1;
+}
+#hoveriv:hover ~ .hover4{
+  opacity: 1;
+}
+#hoverv:hover ~ .hover5{
+  opacity: 1;
+}
+.card:hover {
+  border: 3px solid white ;
+}
+.hover1 {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 600px;
+  opacity: 0;
+}
+.hover2 {
+  position: absolute;
+  margin-left: 890px;
+  opacity: 0;
+}
+.hover3 {
+  position: absolute;
+  opacity: 0;
+  margin-left: 650px;
+}
+.hover4 {
+  position: absolute;
+  opacity: 0;
+  margin-left: 500px;
+}
+.hover5 {
+  position: absolute;
+  opacity: 0;
+  margin-left: 650px;
+}
+
+.bg4 {
+  background-image: url(./fourth.png);
+  height: 1440px;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fourth-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.fourth-h1 {
+  font-size: 80px;
+}
+.fourth-h2 {
+  color: grey;
+  font-size: 40px;
+}
+.price-card {
+  background-color: white;
+  width: 500px;
+  border-radius: 25px;
+  margin: 50px;
+  padding: 20px;
+}
+.pp-card {
+  display: flex;
+}
+.package {
+  display: flex;
+  margin: 20px;
+  margin-top: 40px;
+  gap: 25px;
+}
+.bpackage-text {
+  font-size: 20px;
+}
+.p-price {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px;
+}
+.price {
+  font-size: 50px;
+}
+.price-text {
+  color: gray;
+  font-size: 25px;
+}
+.list {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  gap: 20px;
+}
+.p-button {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  border-radius: 25px;
+  width: 500px;
+  margin: 50px;
+  padding: 15px;
+}
+.social-media {
+  display: flex;
+  background-color: white;
+  border-radius: 50px;
+  padding: 15px;
+}
+.sm {
+  display: flex;
+  font-size: 20px;
+  color: blue;
+  gap: 15px
+}
