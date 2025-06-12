@@ -9,7 +9,7 @@
 }
 
 .bg {
-  background-image: url("first.png");
+  background-image: url("/images/first.png");
   height: 1440px;
   width: 100vw;
   background-position: center;
@@ -29,14 +29,14 @@
   padding: 30px 118px;
 }
 .tour-logo {
-  background-image: url("./logo.png");
+  background-image: url("./images/logo.png");
   background-position: center;
   background-size: cover;
   width: 100px;
   height: 35px;
 }
 .user-logo {
-  background-image: url("./user.png");
+  background-image: url("./images/user.png");
   background-size: cover;
   background-position: center;
   width: 20px;
@@ -83,7 +83,7 @@
 }
 
 .bg2 {
-  background-image: url("second.png");
+  background-image: url("./images/second.png");
   height: 1000px;
   width: 100vw;
   background-position: center;
@@ -100,7 +100,7 @@
   border: 10px solid aquamarine;
   border-radius: 50px;
   display: flex;
-  background-image: url(./location1.png);
+  background-image: url(./images/location1.png);
   justify-content: center;
   align-items: center;
   width: 525px;
@@ -112,7 +112,7 @@
 }
 
 .bg3 {
-  background-image: url(./third.png);
+  background-image: url(./images/third.png);
   width: 100vw;
   height: 1200px;
 }
@@ -211,7 +211,7 @@
 }
 
 .bg4 {
-  background-image: url(./fourth.png);
+  background-image: url(./images/fourth.png);
   height: 1440px;
   width: 100vw;
   background-position: center;
